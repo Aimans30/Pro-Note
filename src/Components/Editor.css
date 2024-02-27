@@ -1,0 +1,25 @@
+/* components/Editor.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+
+.input, .output {
+    width: 1000px;
+    height: 80vh;
+}
+
+.input {
+    margin-right: 100px;
+}
+
+.input-text, .output-text {
+    width: 80%;
+    height: 80%;
+    resize: none;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    padding: 10px;
+    overflow: auto;
+}
